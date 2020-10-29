@@ -38,38 +38,7 @@ function contar(){
 
         res.innerHTML += `\u{1f3c1}`
     }
-/*
-    var inicio = Number(inicio.value)
-    var fim = Number(fim.value)
-
-    console.log('entrou aki')
-
-    var res = document.getElementById('res')
-
-    var strContagem = ''
-
-    if(inicio.value == 0 || fim.value == 0){
-        
-        res.innerHTML = `<p>Não é possível fazer a contagem</p>`
     
-    }else{
-
-        if(passo.value == 0){
-            alert('O passo não pode ser zero, configurando passo para valor 1')
-            passo.value = 1
-        }
-        
-
-        for(var cont = inicio; cont <= fim; cont+=passo){
-            strContagem += `${cont} -> `
-        }
-    
-        strContagem += 'FIM'
-    
-        res.innerHTML = `<p>${strContagem}</p>`
-
-    }
-*/
 }
 
 
