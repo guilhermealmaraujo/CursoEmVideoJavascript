@@ -19,7 +19,7 @@ function gerartabuada(){
 
         while(c <= 10){
             let item = document.createElement('option')
-            item.text = `${c} x ${num.value} = ${c*num.value}`
+            item.text = `${c} x ${num.value} = ${c*numTab.value}`
             item.value = `tab${c}`
             text.appendChild(item)
             c++
