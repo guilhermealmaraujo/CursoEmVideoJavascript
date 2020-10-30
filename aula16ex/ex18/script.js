@@ -39,9 +39,9 @@ function finalizar(){
    
         final.innerHTML = `<p>Ao todo, temos ${array.length} números cadastrados</p>`
     
-        final.innerHTML += `<p>O maior valor informador foi ${Math.max.apply(null, array)}</p>`
+        final.innerHTML += `<p>O maior valor informado foi ${Math.max.apply(null, array)}</p>`
     
-        final.innerHTML += `<p>O maior valor informador foi ${Math.min.apply(null, array)}</p>`
+        final.innerHTML += `<p>O maior valor informado foi ${Math.min.apply(null, array)}</p>`
     
         final.innerHTML += `<p>Somando todos os valores, temos ${somando()}</p>`
     
